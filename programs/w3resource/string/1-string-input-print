@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define SIZE 80
+
+int main(void)
+{
+	char str[SIZE];
+	
+	printf("Input the string: ");
+	fgets(str, SIZE, stdin);
+	
+	printf("The string you entered is: %s", str);
+	
+	return 0;
+}
