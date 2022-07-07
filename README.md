@@ -1,2 +1,2 @@
 # C Practice Programs
-_My practice programs for my C university course._
+_My practice programs I wrote studying for my C university course._
