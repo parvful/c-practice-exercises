@@ -1,1 +1,1 @@
-* Exercises from https://www.w3resource.com/c-programming-exercises/
+# Exercises from https://www.w3resource.com/c-programming-exercises/
