@@ -1,2 +1,2 @@
-# parvful-c-practice-programs
-My practice programs for my C university course
+# C Practice Programs
+_My practice programs for my C university course._
