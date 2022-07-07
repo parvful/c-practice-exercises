@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#define SIZE 80
+
+int main(void)
+{
+	char str[SIZE];
+	int length;
+	
+	printf("Input string: ");
+	fgets(str, SIZE, stdin);
+	str[strlen(str) - 1] = '\0'; // More complicated way to solve the newline character added I think, but it was practice for how it was taught in my class.
+	
+	length = strlen(str);
+	
+	printf("Length of string: %d\n", length);
+	
+	return 0;
+}
