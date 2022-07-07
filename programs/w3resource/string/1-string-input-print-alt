@@ -1,0 +1,21 @@
+// Using pointer notation instead of arrays (and dynamic memory allocation)
+
+#include <stdio.h>
+#include <stdlib.h>
+#define SIZE 80
+
+int main(void)
+{
+	char * str = NULL;
+	
+	str = (char *)malloc(SIZE);
+	
+	printf("Input the string: ");
+	fgets(str, SIZE, stdin);
+	
+	printf("The string you entered is: %s", str);
+	
+	free(str);
+	
+	return 0;
+}
